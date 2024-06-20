@@ -13,7 +13,7 @@ It has some nice stuff too like remembering your last set volume level and only 
 
 # Download/Install
 This process is the same for any local exension.
-1. Go to [the releases page](https://github.com/ldx23/redown-redgifs-download-extension/releases) and download the latest `.crx` 
+1. Go to [the releases page](/releases) and download the latest `.crx` 
 2. Drag the downloaded crx into the browser window, preferably on the extensions page _(it doesnt work on the new tab page in opera gx for whatever reason)_ \
     If you werent on the extensions page, it will prompt you (below the address bar) that this extension was installed from an unknown source: \
     ![image](https://github.com/ldx23/redown-redgifs-download-extension/assets/140859555/671f0cfd-80a2-4c79-a3f7-d14b62ad6438) \
