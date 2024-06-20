@@ -1,0 +1,67 @@
+.redown-DownloadButton {
+    background: 0 0;
+    border: none;
+    color: var(--red-accent);
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: #000 1px 0 5px;
+}
+
+.range-slider {
+    z-index: 10000;
+    position: fixed;
+    width: max-content;
+    right: 0;
+    bottom: 1em;
+    padding: 0 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 6em;
+    
+    /* Slider */
+    .input-range {
+        -webkit-appearance: none;
+        writing-mode: vertical-lr;
+/*         width: 200px; */
+/*         height: 10px; */
+        display: block;
+        width: 15px;
+        height: 20vh;
+        border-radius: 5px;
+        outline: none;
+        border: 1px solid var(--backgroundBlack);
+        background: var(--red-accent);
+        box-shadow: var(--red-accent-pressed-1) 0px 0 10px 5px;
+        margin-bottom: 5px;
+    }
+
+    .input-range::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        background: black;
+        width: 25px;
+        height: 1vh;
+        cursor: pointer;
+        border: 1px solid var(--red-accent-hover-1);
+        border-radius: 5px;
+    }
+
+    .range-value {
+        color: var(--red-accent);
+        display: inline-flex;
+        gap: 3px;
+
+    }
+}
+
+/* Firefox Overrides */
+::-moz-range-track {
+    background: #ccc;
+    border: 0;
+}
+
+input::-moz-focus-inner { 
+    border: 0; 
+}
